@@ -90,8 +90,8 @@ Example of what comes back (trimmed; the real response carries more fields):
 ## Getting a key
 
 Anonymous key in one call, no email or account:
-`GET https://api.inferenceindexer.ai/v1/keys/anonymous` (free tier: 10,000
-requests/day, 30 days history). Humans: https://www.inferenceindexer.ai/signup
+`POST https://api.inferenceindexer.ai/v1/auth/anonymous` (free tier: 10,000
+requests/day, 30 days of history). Humans: https://www.inferenceindexer.ai/signup?src=clawhub
 for usage tracking and a dashboard.
 
 MCP server on PyPI: `inferenceindexer-mcp`, auto-discovery config at
